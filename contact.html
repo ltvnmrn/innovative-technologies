@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>innovative technologies</title>
+	
+	 <style>
+        body {
+            background-image: url('./bg/2.png');
+			background-repeat: no-repeat;
+            background-size: cover;
+			font-family: 'Courier New', monospace;
+        }
+		h1{
+			color: rgba(90, 101, 208, 1);
+			text-align: left;
+			letter-spacing: 3px;
+		}
+		
+		h2{
+			color: rgba(166, 79, 163, 1);
+		}
+		
+		p{
+			color: rgba(90, 101, 208, 1);
+			font-family: 'Times New Roman', serif;
+		}
+    </style>
+</head> 
+<body>
+	<h1 style="background-color:rgba(90, 101, 208, 0.095); text-align: center";>BUSINESS BASED ON <BR> INNOVATIVE TECHNOLOGIES</h1>
+	<style>
+	.navbar ul{
+		list-style: none;
+		background-color: rgba(144, 158, 232, 0.5);
+		padding: 0;
+        margin: 0;
+		overflow: hidden;
+	}
+	.navbar a{
+		color: rgba(243, 239, 253, 1);
+		text-decoration: none;
+		padding: 15px;
+		display: block;
+		text-align: center;
+	}
+	.navbar a:hover{
+		background-color: rgba(144, 158, 232, 0.8);
+	}
+	.navbar li{
+		float: left
+		
+	}
+	</style>
+	
+	<nav class="navbar">
+		<ul>
+			<li><a href="index.html">SCIENTIFIC PROGRESS</a></li>
+			<li><a href="intech.html">INNOVATIVE TECHNOLOGIES</a></li>
+			<li><a href="itbusiness.html">INNOVATIVE TECHNOLOGIES AND BUSINESS</a></li>
+			<li><a href="business in society.html">INTEGRATION IN SOCIETY</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+	
+	<style>
+		.contact-container{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			font-family: 'Outfit';
+			height: 100vh;
+			display: flex;
+			align-items: left;
+			justify-content: space-evenly;
+		}
+		.contact-left{
+			display: flex; 
+			flex-direction: column; 
+			align-items: start;
+			gap: 20px;
+		}
+		.contact-left-title h2{
+			font-weight; 600;
+			color: rgba(144, 158, 232, 1);
+			font-size: 40px;
+			margin-bottom: 5px;
+		}
+		.contact-left-title hr{
+			border: none;
+			width: 388px;
+			height: 5px;
+			background-color: rgba(90, 101, 208, 0.5);
+			border-radius: 10px;
+			margin-bottom: 20px; 
+		}
+		.contact-inputs{
+			width: 388px;
+			height: 50px; 
+			border: none;
+			outline: none;
+			padding-left: 25px;
+			font-weight: 500;
+			color: rgba(160, 205, 244, 1);
+			border-radius: 10px;
+		}
+		.contact-left textarea{
+			height: 140px;
+			padding-top: 15px;
+			border-radius: 10px;
+		}
+		.contact-inputs:focus{
+			border: 2px solid rgba(160, 205, 244, 1);
+		}
+		.contact-inputs::placeholder{
+			color: rgba(144, 158, 232, 1);
+		}
+		.contact-left button{
+			display: flex;
+			align-items: center;
+			padding: 15px 30px;
+			font-size: 16px;
+			color: rgba(90, 101, 208, 1);
+			gap: 10px;
+			border: none;
+			border-radius: 10px;
+			background: linear-gradient(270deg, #a0cdf4, #A64FA3);
+			cursor: pointer;
+		}
+		.contact-right img{
+			width: 500 px;
+			margin-top: 100px;
+			border-radius: 10px;
+		}
+	</style>
+	
+	<hr></hr>
+    <h1 style="color: rgba(144, 158, 232, 1)">CONTACT</h1>
+
+	<div class="contact-container">
+		<form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+			<div class="contact-left-title">
+				<h2>Leave your comments!</h2>
+				<hr></hr>
+			</div>
+			<input type="hidden" name="access_key" value="fdfa832a-0fbe-4b9d-b443-711099bff5ec">
+			<input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+			<input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+			<textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+			<button type="send">Send <img src="./arrow.svg" width="5px"></button>
+		</form>
+		<div class="contact-right">
+			<img src="./1.jpg" width="300px">
+		</div>
+	</div>
+
+
+
+
+
+</body>
+</html>
